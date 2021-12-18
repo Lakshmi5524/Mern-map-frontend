@@ -1,4 +1,4 @@
-.card {
+.cart {
   width: 250px;
   height: 250px;
   display: flex;
@@ -16,9 +16,10 @@ label {
 
 .desc {
   font-size: 14px;
+font-weight: 500;
 }
 
-.star {
+.star{
   color: gold;
 }
 
@@ -36,18 +37,19 @@ form {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  color: rgb(88, 87, 87);
+  color:black;
+
 }
 
 input {
   border: none;
-  border-bottom: 1px solid gray;
+  border-bottom: 1px solid rgb(124, 118, 118);
 }
 
 input::placeholder,
 textarea::placeholder {
   font-size: 12px;
-  color: rgb(185, 184, 184);
+  color: rgb(32, 29, 29);
 }
 
 input:focus,
@@ -66,12 +68,13 @@ textarea {
   padding: 5px;
   border-radius: 5px;
   color: white;
-  background-color: tomato;
+  background-color:g;
   cursor: pointer;
+   background-color: teal;
 }
 
-.buttons,
-.logout {
+.buttons,.logout
+ {
   position: absolute;
   top: 10px;
   right: 10px;
@@ -92,16 +95,16 @@ textarea {
   outline: none;
 }
 
-.logout{
-  background-color: tomato;
+ .logout{
+  background-color:red;
 }
 
 .login{
-  background-color:springgreen ;
+  background-color:lightseagreen ;
   margin-right: 10px;
 
 }
 
 .register{
-  background-color:darkblue;
+  background-color:indianred;
 }

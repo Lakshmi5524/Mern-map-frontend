@@ -3,7 +3,7 @@
   height: 250px;
   padding: 20px;
   border-radius: 10px;
-  background-color:darksalmon;
+  background-color:#96ded1;
   position: absolute;
   top: 0;
   bottom: 0;
@@ -23,11 +23,11 @@
   cursor: pointer;
 }
 
-.logo {
+.logo{
   display: flex;
   align-items: center;
   justify-content: center;
-  color: slateblue;
+  color:red;
   font-weight: 700;
 }
 
