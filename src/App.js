@@ -24,7 +24,6 @@ function App() {
   const [title, setTitle] = useState(null);
   const [desc, setDesc] = useState(null);
   const [star, setStar] = useState(0);
-  const [rating, setRating] = useState(0);
   const [showRegister, setShowRegister] = useState(false);
   const [showLogin, setShowLogin] = useState(false);
 
